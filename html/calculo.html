@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js"defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon">
+    <title>Cálculos</title>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <ul>
+            <li><a href="../index.html">Principal</a></li>
+            <li><a href="../html/intelbras.html">Intelbras</a></li>
+            <li><a href="../html/canadian.html">Canadian Solar</a></li>
+            <li><a href="../html/calculo.html">Cálculos</a></li>
+        </ul>
+    </nav>
+
+    <!-- CORPO -->
+    <main>
+
+        <!-- INFORMAÇÃO -->
+        <div class="title-text">
+            <h1>quanto gera de energia uma placa solar</h1>
+
+            <p>Uma placa solar gera energia em função da sua potência (em Watts) e da irradiação solar local. Por exemplo, uma placa de 550W pode produzir entre 82 e 90 kWh por mês em locais com boa irradiação, enquanto uma placa de 700W pode gerar cerca de 91 kWh mensais em cidades como Brasília. Para calcular a geração exata, é preciso considerar a potência da placa, a irradiação solar diária da sua região e a eficiência do sistema.</p>
+
+            <p><b>Potência da placa (Wp)</b>: É a potência máxima que a placa pode gerar em condições ideais. <b>Irradiação solar</b>: A quantidade de luz solar que a placa recebe, que varia conforme a localização geográfica e as condições climáticas. <b>Eficiência do sistema</b>: Inclui fatores como a inclinação e a orientação do painel, além de perdas elétricas e a qualidade dos componentes. </p>
+
+            <h1>Cálculo</h1>
+        </div>
+
+        <!-- CÁLCULO -->
+        <div class="resul">
+            <label for="ppw">Potência da placa</label><br>
+            <input type="number" id="ppw"><br>
+
+            <label for="m2dia">Irradiação diária</label><br>
+            <input type="number" id="m2dia"><br>
+
+            <label for="diasmes">Dias no mês</label><br>
+            <input type="number" id="diasmes"><br>   
+
+            <label for="efisis">Eficiência do sistema</label><br>
+            <input type="number" id="efisis"><br>
+
+            <button onclick="principal()">Calcular</button>
+            <div id="resposta"></div>
+        </div>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>Guilherme Ambrósio &copy; 2025. Todos os Direitos Reservados</p>
+        <div class="fo-icon">
+            <a href="https://github.com/Guuiilhermee" target="_blank"><i class="fab fa-github fa-2x"></i>Github</a> 
+            <a><i class="fab fa-whatsapp fa-2x"></i>Whatsapp</a>
+        </div>
+    </footer>
+</body>
+</html>
