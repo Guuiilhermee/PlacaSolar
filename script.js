@@ -7,7 +7,7 @@ function principal(){
     let ppw = Number(document.getElementById('ppw').value)
     let m2dia = Number(document.getElementById('m2dia').value)
     let diasmes = Number(document.getElementById('diasmes').value)
-    let efisis = Number(document.getElementById('efisis').value)
+    let efisis = Number(document.getElementById('efisis').value) / 100
 
     let kwh = (ppw * m2dia * diasmes * efisis) / 1000
 
