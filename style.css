@@ -6,12 +6,8 @@ body{
     background-color: #636363;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
 }
 
-/* NAVBAR */
 nav{
     align-items: center;
     text-align: center;
@@ -37,7 +33,6 @@ a:hover{
     color: #ff953e;
 }
 
-/* INFORMAÇÕES */
 .title-text{
     display: block;
     align-items: center;
@@ -55,6 +50,42 @@ a:hover{
     font-size: 1.75rem;
 }
 
+.title-text2 h1{
+    color: #1b1b1b;
+    text-transform: uppercase;
+    width: 800px;
+    margin: auto;
+    padding: 15px;
+    font-size: 1.75rem;
+}
+
+.title-text3 h1{
+    color: #1b1b1b;
+    text-transform: uppercase;
+    width: 800px;
+    margin: auto;
+    padding: 15px;
+    font-size: 1.75rem;
+}
+
+.title-text2 h2{
+    color: #1b1b1b;
+    text-transform: uppercase;
+    width: 800px;
+    margin: auto;
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
+.title-text3 h2{
+    color: #1b1b1b;
+    text-transform: uppercase;
+    width: 800px;
+    margin: auto;
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
 .title-text p{
     margin: auto;
     padding: 10px;
@@ -64,7 +95,41 @@ a:hover{
     color: #dfdfdf;
 }
 
+.title-text2 p{
+    margin: auto;
+    padding: 10px;
+    width: 800px;
+    font-size: 0.75rem;
+    text-align: center;
+    color: #dfdfdf;
+}
+
+.title-text3 p{
+    margin: auto;
+    padding: 10px;
+    width: 800px;
+    font-size: 0.75rem;
+    text-align: justify;
+    color: #dfdfdf;
+}
+
+.title-text2 a{
+    margin: auto;
+    text-decoration: underline;
+    color: #dfdfdf;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .title-text b{
+    color: #ff953e;
+}
+
+.title-text2 b{
+    color: #ff953e;
+}
+
+.title-text3 b{
     color: #ff953e;
 }
 
@@ -85,15 +150,32 @@ a:hover{
     margin: 10px;
 }
 
+.calc-img img{
+    margin-top: 1rem;
+    border-radius: 1rem;
+    width: 700px;
+}
+
+.title-text2 img{
+    width: 400px;
+    margin: 10px;
+}
+
+.title-text3 img{
+    width: 400px;
+    margin: 10px;
+    border-radius: 1rem;
+}
+
 /* CÁLCULO */
 .resul{
     font-size: 1.30rem;
     font-weight: bold;
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    /* justify-content: center; */
     align-items: center;
-    /* flex-wrap: wrap;
-    flex-direction: column; */
+    /* flex-wrap: wrap; */
+    flex-direction: column;
 }
 
 label{
@@ -120,7 +202,7 @@ button{
     background-color: #3a3a3a;
     color: #fff;
     text-align: center;
-    margin: 1.5rem 0 1rem 0;
+    /* margin: 1.5rem 0 1rem 0; */
 }
 
 button:hover{
@@ -171,12 +253,11 @@ a:hover{
     color: #ff953e;
 }
 
-/* RESPONSIVIDADE */
 @media (max-width: 768px){
 
     li, a{
         font-size: 0.60rem;
-        margin: 10px;
+        margin: 7px;
     }
 
     h1{
@@ -188,7 +269,53 @@ a:hover{
         font-size: 1.10rem;
     }
 
+        .title-text2 h1{
+        width: 320px;
+        font-size: 1.10rem;
+    }
+
+        .title-text3 h1{
+        width: 320px;
+        font-size: 1.10rem;
+    }
+
     .title-text p{
+        width: 320px;
+        font-size: 0.65rem;
+    }
+
+        .title-text2 p{
+        width: 320px;
+        font-size: 0.65rem;
+    }
+
+        .title-text3 p{
+        width: 350px;
+        font-size: 0.70rem;
+    }
+
+    .title-text2 h1{
+        width: 320px;
+        font-size: 1.2rem;
+    }
+
+    .title-text2 h2{
+    color: #1b1b1b;
+    width: 320px;
+    margin: auto;
+    padding: 15px;
+    font-size: 0.80rem;
+}
+
+    .title-text3 h2{
+    color: #1b1b1b;
+    width: 320px;
+    margin: auto;
+    padding: 15px;
+    font-size: 0.80rem;
+}
+
+    .title-text2 p{
         width: 320px;
         font-size: 0.65rem;
     }
@@ -199,13 +326,27 @@ a:hover{
     }
 
     .map iframe{
-        width: 320px;
-        height: 180px
-
+    width: 320px;
+    height: 180px;
     }
     
     .title-text img{
         width: 320px;
+    }
+
+    .title-text2 img{
+        width: 320px;
+    }
+
+        .title-text3 img{
+        width: 320px;
+    }
+
+    .calc-img img{
+    margin: 1rem 0 1rem 0;
+    border-radius: 1rem;
+    width: 400px;
+    height: 250px;
     }
 
 }
