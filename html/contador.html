@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js"defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon">
+    <title>Contador</title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Principal</a></li>
+            <li><a href="../html/calculo.html">Cálculos</a></li>
+            <li><a href="../html/arduino.html">Arduino</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <div class="title-text4">
+            <h1>Projeto Contador</h1>
+
+            <h2>Código do Projeto</h2>
+            <p>// C++ code<br><br>
+int contador = 0;<br>
+
+void setup()
+{<br>
+  pinMode(2, OUTPUT);<br>
+  pinMode(3, OUTPUT);<br>
+  pinMode(4, OUTPUT);<br>
+  pinMode(5, OUTPUT);<br>
+  pinMode(6, OUTPUT);<br>
+  pinMode(7, OUTPUT);<br>
+  pinMode(8, OUTPUT);
+}<br><br>
+
+void loop()
+{<br>
+  digitalWrite(2, HIGH);<br>
+  digitalWrite(3, LOW);<br>
+  digitalWrite(4, LOW);<br>
+  digitalWrite(5, HIGH);<br>
+  digitalWrite(6, HIGH);<br>
+  digitalWrite(7, HIGH);<br>
+  digitalWrite(8, HIGH);<br>
+  delay(1000); // Wait for 1000 millisecond(s)<br>
+  digitalWrite(2, LOW);<br>
+  digitalWrite(3, LOW);<br>
+  digitalWrite(4, HIGH);<br>
+  digitalWrite(5, LOW);<br>
+  digitalWrite(6, LOW);<br>
+  digitalWrite(7, HIGH);<br>
+  digitalWrite(8, LOW);<br>
+  delay(1000); // Wait for 1000 millisecond(s)<br>
+  digitalWrite(2, LOW);<br>
+  digitalWrite(3, LOW);<br>
+  digitalWrite(4, LOW);<br>
+  digitalWrite(5, LOW);<br>
+  digitalWrite(6, HIGH);<br>
+  digitalWrite(7, HIGH);<br>
+  digitalWrite(8, LOW);<br>
+  delay(1000); // Wait for 1000 millisecond(s)<br>
+  digitalWrite(2, HIGH);<br>
+  digitalWrite(3, LOW);<br>
+  digitalWrite(4, LOW);<br>
+  digitalWrite(5, HIGH);<br>
+  digitalWrite(6, HIGH);<br>
+  digitalWrite(7, LOW);<br>
+  digitalWrite(8, LOW);<br>
+  delay(1000); // Wait for 1000 millisecond(s)<br>
+  digitalWrite(2, LOW);<br>
+  digitalWrite(3, HIGH);<br>
+  digitalWrite(4, LOW);<br>
+  digitalWrite(5, LOW);<br>
+  digitalWrite(6, HIGH);<br>
+  digitalWrite(7, LOW);<br>
+  digitalWrite(8, LOW);<br>
+  delay(1000); // Wait for 1000 millisecond(s)<br>
+  digitalWrite(2, LOW);<br>
+  digitalWrite(3, HIGH);<br>
+  digitalWrite(4, LOW);<br>
+  digitalWrite(5, LOW);<br>
+  digitalWrite(6, LOW);<br>
+  digitalWrite(7, LOW);<br>
+  digitalWrite(8, LOW);<br>
+  delay(1000); // Wait for 1000 millisecond(s)<br>
+  digitalWrite(2, LOW);<br>
+  digitalWrite(3, LOW);<br>
+  digitalWrite(4, LOW);<br>
+  digitalWrite(5, HIGH);<br>
+  digitalWrite(6, HIGH);<br>
+  digitalWrite(7, HIGH);<br>
+  digitalWrite(8, HIGH);<br>
+  delay(1000); // Wait for 1000 millisecond(s)<br>
+  digitalWrite(2, LOW);<br>
+  digitalWrite(3, LOW);<br>
+  digitalWrite(4, LOW);<br>
+  digitalWrite(5, LOW);<br>
+  digitalWrite(6, LOW);<br>
+  digitalWrite(7, LOW);<br>
+  digitalWrite(8, LOW);<br>
+  delay(1000); // Wait for 1000 millisecond(s)<br>
+  digitalWrite(2, LOW);<br>
+  digitalWrite(3, LOW);<br>
+  digitalWrite(4, LOW);<br>
+  digitalWrite(5, HIGH);<br>
+  digitalWrite(6, HIGH);<br>
+  digitalWrite(7, LOW);<br>
+  digitalWrite(8, LOW);<br>
+  delay(1000); // Wait for 1000 millisecond(s)
+}</p>
+
+<img src="../img/all_contador.PNG" alt="">
+
+<p><a href="https://drive.google.com/file/d/1pozGETipMN2ougkyycgZpiMIRBk6hJJl/view?usp=sharing"target="_blank">Download</a> do <b>código</b></p>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Guilherme Ambósio &copy; 2025. Todos os Direitos Reservados</p>
+        <div class="fo-icon">
+            <a href="https://github.com/Guuiilhermee" target="_blank"><i class="fab fa-github fa-2x"></i>Github</a> 
+            <a><i class="fab fa-whatsapp fa-2x"></i>Whatsapp</a>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -74,6 +74,15 @@ a:hover{
     font-size: 1.75rem;
 }
 
+.title-text4 h1{
+    color: #1b1b1b;
+    text-transform: uppercase;
+    width: 800px;
+    margin: auto;
+    padding: 15px;
+    font-size: 1.75rem;
+}
+
 .title-text2 h2{
     color: #1b1b1b;
     text-transform: uppercase;
@@ -84,6 +93,15 @@ a:hover{
 }
 
 .title-text3 h2{
+    color: #1b1b1b;
+    text-transform: uppercase;
+    width: 800px;
+    margin: auto;
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
+.title-text4 h2{
     color: #1b1b1b;
     text-transform: uppercase;
     width: 800px;
@@ -119,7 +137,40 @@ a:hover{
     color: #dfdfdf;
 }
 
+.title-text4 p{
+    margin: auto;
+    padding: 10px;
+    width: 800px;
+    font-size: 0.6rem;
+    text-align: center;
+    color: #dfdfdf;
+}
+
+.title-text a{
+    margin: auto;
+    text-decoration: underline;
+    color: #dfdfdf;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .title-text2 a{
+    margin: auto;
+    text-decoration: underline;
+    color: #dfdfdf;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.title-text3 a{
+    margin: auto;
+    text-decoration: underline;
+    color: #dfdfdf;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.title-text4 a{
     margin: auto;
     text-decoration: underline;
     color: #dfdfdf;
@@ -136,6 +187,10 @@ a:hover{
 }
 
 .title-text3 b{
+    color: #ff953e;
+}
+
+.title-text4 b{
     color: #ff953e;
 }
 
@@ -171,6 +226,11 @@ a:hover{
     width: 400px;
     margin: 10px;
     border-radius: 1rem;
+}
+
+.title-text4 img{
+    width: 900px;
+    margin: 10px;
 }
 
 /* CÁLCULO */
@@ -262,7 +322,7 @@ a:hover{
 @media (max-width: 768px){
 
     li, a{
-        font-size: 0.60rem;
+        font-size: 0.80rem;
         margin: 7px;
     }
 
@@ -285,6 +345,11 @@ a:hover{
         font-size: 1.10rem;
     }
 
+    .title-text4 h1{
+        width: 320px;
+        font-size: 1.10rem;
+    }
+
     .title-text p{
         width: 320px;
         font-size: 0.65rem;
@@ -296,6 +361,11 @@ a:hover{
     }
 
         .title-text3 p{
+        width: 350px;
+        font-size: 0.70rem;
+    }
+
+            .title-text4 p{
         width: 350px;
         font-size: 0.70rem;
     }
@@ -314,6 +384,14 @@ a:hover{
 }
 
     .title-text3 h2{
+    color: #1b1b1b;
+    width: 320px;
+    margin: auto;
+    padding: 15px;
+    font-size: 0.80rem;
+}
+
+    .title-text4 h2{
     color: #1b1b1b;
     width: 320px;
     margin: auto;
@@ -344,15 +422,19 @@ a:hover{
         width: 320px;
     }
 
-        .title-text3 img{
+    .title-text3 img{
+        width: 320px;
+    }
+
+    .title-text4 img{
         width: 320px;
     }
 
     .calc-img img{
     margin: 1rem 0 1rem 0;
     border-radius: 1rem;
-    width: 400px;
-    height: 20px;
+    width: 350px;
+    /* height: 20px; */
     }
 
 }

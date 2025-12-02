@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon" />
+    <title>Contador</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Principal</a></li>
+        <li><a href="../html/calculo.html">Cálculos</a></li>
+        <li><a href="../html/arduino.html">Arduino</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="title-text4">
+        <h1>Projeto Led com Potenciômetro</h1>
+
+        <h2>Código do Projeto</h2>
+        <p>
+          // C++ code<br /><br />
+          void setup() {<br />
+          pinMode(A0, INPUT);<br />
+          Serial.begin(9600);<br />
+          pinMode(2, OUTPUT);<br />
+          pinMode(3, OUTPUT);<br />
+          pinMode(4, OUTPUT); }<br /><br />
+
+          void loop() {<br />
+          Serial.println(analogRead(A0));<br />
+          if (analogRead(A0) >= 300) {<br />
+          digitalWrite(2, HIGH);<br />
+          digitalWrite(3, LOW);<br />
+          digitalWrite(4, LOW); }<br />
+          if (analogRead(A0) >= 600) {<br />
+          digitalWrite(2, LOW);<br />
+          digitalWrite(3, HIGH);<br />
+          digitalWrite(4, LOW); }<br />
+          if (analogRead(A0) >= 900) {<br />
+          digitalWrite(2, LOW);<br />
+          digitalWrite(3, LOW);<br />
+          digitalWrite(4, HIGH); }<br />
+          delay(10); // Delay a little bit to improve simulation performance }
+        </p>
+
+        <img src="../img/all_ledpoten.PNG" alt="" />
+
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/sEnkfQarJng?si=px78BU3-YOfMt598" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <p>
+          <a
+            href="https://drive.google.com/file/d/1RSZ_GzZebhRKD5J9_L7o3L18i1fw0K5b/view?usp=sharing"
+            target="_blank"
+            >Download</a
+          >
+          do <b>código</b>
+        </p>
+
+      </div>
+    </main>
+
+    <footer>
+      <p>Guilherme Ambósio &copy; 2025. Todos os Direitos Reservados</p>
+      <div class="fo-icon">
+        <a href="https://github.com/Guuiilhermee" target="_blank"
+          ><i class="fab fa-github fa-2x"></i>Github</a
+        >
+        <a><i class="fab fa-whatsapp fa-2x"></i>Whatsapp</a>
+      </div>
+    </footer>
+  </body>
+</html>
