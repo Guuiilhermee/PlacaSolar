@@ -14,5 +14,5 @@ function principal(){
     console.log(`A geração mensal de energia por mês é: ${kwh.toFixed(2)}`)
 
     resposta.innerHTML = ``
-    resposta.innerHTML = `A geração mensal de energia por mês é: ${kwh.toFixed(2)}`
+    resposta.innerHTML = `A geração mensal de energia por mês é: ${kwh.toFixed(2)}W`
 }
