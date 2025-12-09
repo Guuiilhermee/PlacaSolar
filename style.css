@@ -437,6 +437,11 @@ a:hover{
     /* height: 20px; */
     }
 
+    video, source{
+        width: 320px;
+        height: 180px;
+    }
+
 }
 
 @media (max-width: 375px){
