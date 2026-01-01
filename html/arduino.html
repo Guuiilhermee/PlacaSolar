@@ -3,39 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon" />
-    <script src="../script.js" defer></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
+    <link rel="stylesheet" href="../arduino.css" />
+    <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <title>Arduino</title>
   </head>
   <body>
-    <nav>
-      <ul>
-            <li><a href="../index.html">Principal</a></li>
-            <li><a href="../html/calculo.html">Cálculos</a></li>
-            <li><a href="../html/arduino.html">Arduino</a></li>
-            <li><a href="../html/placasolid.html">Montagem</a></li>
-      </ul>
-    </nav>
+
+    <header>
+      <div class="cabecalho">
+        <nav>
+          <ul>
+                <li><a href="../index.html">Principal</a></li>
+                <li><a href="../html/calculo.html">Cálculos</a></li>
+                <li><a href="../html/arduino.html">Arduino</a></li>
+                <li><a href="../html/placasolid.html">Montagem</a></li>
+          </ul>
+        </nav>  
+      </div>
+    </header>
 
     <main>
       <div class="title-text2">
         <h1>Arduino</h1>
+        <p>Arduino transforma código em ação</p>
+      </div>
 
+      <div class="information">
         <h2>Entrada e Saída Digital</h2>
-        <p>Binário <b>0-1</b>, Físico ligado-desligado em volts <b>~0-5</b></p>
+        <ul>
+          <li>Binário: <b>0-1</b></li>
+          <li>Físico ligado-desligado em volts: <b>~0-5</b></li>
+        </ul>
 
         <h2>Entrada e Saída Analógica</h2>
-        <p>Binário <b>0-1023</b>, Físico <b>0-100%</b> em Volts <b>0-5</b></p>
+        <ul>
+          <li>Binário: <b>0-1023</b></li>
+          <li>Físico: <b>0-100%</b></li>
+          <li>Volts: <b>0-5</b></li>
+        </ul>
+      </div>
 
+      <div class="infos">
         <h2>O que é Arduino</h2>
         <p>
           É uma plataforma de hardware e software de código aberto, permitindo a criação de
-          <a href="./projetos.html">projetos</a> interativos e protótipos. Alguns detalhes e informações de projetos (<a href="./detal.html">AQUI!</a>)
+          <a href="./projetos.html" class="infolink">projetos</a> interativos e protótipos. Alguns detalhes e informações de projetos (<a href="./detal.html">AQUI!</a>)
         </p>
         <img src="../img/arduino.png" alt="">
 
@@ -45,25 +58,42 @@
           memória e periféricos de entrada/saída (E/S) para <b>controlar tarefas
           específicas</b>.
         </p>
+      </div>
 
+      <div class="information">
         <h2>Microcontrolador do Arduino: modelo e fabricante</h2>
-        <p>Atmel, ATmega328p UNO</p>
+        <ul>
+          <li>Atmel</li>
+          <li>ATmega328p UNO</li>
+        </ul>
 
         <h2>Qual a linguagem de programação do Arduino</h2>
-        <p><b>C++</b> e Micropython</p>
+        <ul>
+          <li><b>C++</b></li>
+          <li>Micropython</li>
+        </ul>
+      </div>  
 
+      <div class="infos">
         <h2>Onde o Arduino é programado (IDE)</h2>
         <p>Arduino IDE</p>
+      </div>
 
-        <h2>
-          Qual é o valor em volts da entrada analógica no Arduino e a resolução
-          em bits
-        </h2>
-        <p>Volts 0-5V, Bits 0-1023</p>
+      <div class="information">
+        <h2>Entrada analógica em Volts no Arduino e a resolução em Bits</h2>
+        <ul>
+          <li>Volts 0-5V</li>
+          <li>Bits 0-1023</li>
+        </ul>
 
-        <h2>Qual o valor da entrada/saída digital em volts no Arduino</h2>
-        <p>0 é 0V e 1 é 5V</p>
+        <h2>Valor da entrada/saída digital em volts no Arduino</h2>
+        <ul>
+          <li>0 é 0V</li>
+          <li>1 é 5V</li>
+        </ul>
+        </div>
 
+      <div class="infos">
         <h2>O que é um multímetro</h2>
         <p>
           É um instrumento de medição portátil usado para medir grandezas elétricas
@@ -92,7 +122,7 @@
           Precisa-se usar um multímetro na escala de resistência (<b>Ω</b>), conectando as pontas nas extremidades.
         </p>
 
-        <h2>Como é a medição de uma tensão no circuito com resistor e led</h2>
+        <h2>Medição de uma tensão no circuito com resistor e led</h2>
         <p>
           Precisa-se usar um multímetro na função de voltímetro (VCC), pegar um fio negativo e um positivo do circuito e medir com o multímetro.
         </p>
@@ -105,13 +135,12 @@
     </main>
 
     <footer>
-      <p>Guilherme Ambósio &copy; 2025. Todos os Direitos Reservados</p>
-      <div class="fo-icon">
-        <a href="https://github.com/Guuiilhermee" target="_blank"
-          ><i class="fab fa-github fa-2x"></i>Github</a
-        >
-        <a><i class="fab fa-whatsapp fa-2x"></i>Whatsapp</a>
-      </div>
+        <p>Guilherme Ambósio &copy; 2025. Todos os Direitos Reservados</p>
+        <div class="fo-icon">
+            <a href="https://github.com/Guuiilhermee" target="_blank"><i class="fab fa-github fa-2x"></i>Github</a> 
+            <a><i class="fab fa-whatsapp fa-2x"></i>Whatsapp</a>
+        </div>
     </footer>
+    
   </body>
 </html>

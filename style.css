@@ -65,13 +65,17 @@ a:hover{
     font-size: 1.75rem;
 }
 
+.title-text3{
+    margin: 1rem auto;
+    padding-right: 10%;
+    padding-left: 10%;
+    width: 800px;
+}
+
 .title-text3 h1{
     color: #1b1b1b;
     text-transform: uppercase;
-    width: 800px;
-    margin: auto;
-    padding: 15px;
-    font-size: 1.75rem;
+    background-color: #a0a0a0;
 }
 
 .title-text4 h1{
@@ -95,10 +99,15 @@ a:hover{
 .title-text3 h2{
     color: #1b1b1b;
     text-transform: uppercase;
-    width: 800px;
+    /* width: 800px; */
     margin: auto;
     padding: 15px;
     font-size: 1.2rem;
+    background-color: #a0a0a0;
+    text-align: left;
+    padding: 0.5rem;
+    font-weight: bold;
+    border-bottom: #1b1b1b 2px solid;
 }
 
 .title-text4 h2{
@@ -129,8 +138,8 @@ a:hover{
 }
 
 .title-text3 p{
-    margin: auto;
-    padding: 10px;
+    /* margin: auto; */
+    /* padding: 10px; */
     width: 800px;
     font-size: 0.75rem;
     text-align: justify;
@@ -231,6 +240,59 @@ a:hover{
 .title-text4 img{
     width: 900px;
     margin: 10px;
+}
+
+.new-title-text{
+    margin: 1rem auto;
+    padding-right: 10%;
+    padding-left: 10%;
+    width: 800px;
+}
+
+.new-title-text h1{
+    color: #1b1b1b;
+    background-color: #a0a0a0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.new-title-text p{
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.new-title-text h2{
+    color: #1b1b1b;
+    background-color: #a0a0a0;
+    text-align: left;
+    padding: 0.5rem;
+    border-bottom: #1b1b1b 2px solid;
+}
+
+.new-title-text img{
+    width: 400px;
+    margin: 10px;   
+}
+
+.new-title-text3{
+    margin: 1rem auto;
+    padding-right: 10%;
+    padding-left: 10%;
+    width: 800px;
+}
+
+.new-title-text3 h1{
+    color: #1b1b1b;
+    background-color: #a0a0a0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.new-title-text3 p{
+    text-align: center;
+    color: #fff;
+    font-size: 0.75rem;
 }
 
 /* CÁLCULO */
@@ -340,9 +402,8 @@ a:hover{
         font-size: 1.10rem;
     }
 
-        .title-text3 h1{
-        width: 320px;
-        font-size: 1.10rem;
+    .new-title-text3 h1{
+        font-size: 1.50rem;
     }
 
     .title-text4 h1{
@@ -358,11 +419,6 @@ a:hover{
         .title-text2 p{
         width: 320px;
         font-size: 0.65rem;
-    }
-
-        .title-text3 p{
-        width: 350px;
-        font-size: 0.70rem;
     }
 
             .title-text4 p{
@@ -383,14 +439,6 @@ a:hover{
     font-size: 0.80rem;
 }
 
-    .title-text3 h2{
-    color: #1b1b1b;
-    width: 320px;
-    margin: auto;
-    padding: 15px;
-    font-size: 0.80rem;
-}
-
     .title-text4 h2{
     color: #1b1b1b;
     width: 320px;
@@ -402,6 +450,35 @@ a:hover{
     .title-text2 p{
         width: 320px;
         font-size: 0.65rem;
+    }
+
+    .new-title-text3{
+        width: 100%;
+        max-width: 800px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        box-sizing: border-box;  
+    }
+
+    .title-text3{
+    width: 100%;
+    max-width: 800px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+    }
+
+    .title-text3 img{
+        width: 320px;
+    }
+
+    .title-text3 h2{
+        font-size: 0.9rem;
+    }
+
+    .title-text3 p{
+        width: 320px;
+        font-size: 0.75rem;
     }
 
     .video iframe{
@@ -422,10 +499,6 @@ a:hover{
         width: 320px;
     }
 
-    .title-text3 img{
-        width: 320px;
-    }
-
     .title-text4 img{
         width: 320px;
     }
@@ -440,6 +513,22 @@ a:hover{
     video, source{
         width: 320px;
         height: 180px;
+    }
+
+    .new-title-text{
+    width: 100%;
+    max-width: 800px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+    }
+
+    .new-title-text img{
+        width: 320px;
+    }
+
+    .new-title-text h2{
+        font-size: 0.75rem;
     }
 
 }

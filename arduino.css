@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --bold-color: #ff953e;
+    --textcolor: #fff;
+    --titlecolor: #1b1b1b;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    background-color: #636363;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html, body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.cabecalho nav{
+    align-items: center;
+    text-align: center;
+}
+
+.cabecalho ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho li{
+    list-style-type: none;
+    margin: 20px;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.cabecalho a:hover{
+    color: var(--bold-color);
+}
+
+.title-text2{
+    margin: 1rem auto;
+    padding-right: 10%;
+    padding-left: 10%;
+    width: 800px;
+}
+.title-text2 h1{
+    color: var(--titlecolor);
+    background-color: #a0a0a0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.title-text2 p{
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    color: var(--textcolor);
+}
+
+.information{
+    margin: 1.4rem auto;
+    padding-right: 10%;
+    padding-left: 10%;
+    width: 800px;
+}
+
+.information h2{
+    color: var(--titlecolor);
+    background-color: #a0a0a0;
+    text-align: left;
+    padding: 0.5rem;
+    font-weight: bold;
+    border-bottom: var(--titlecolor) 2px solid;
+}
+
+.information b{
+    color: var(--bold-color);
+}
+
+.information ul{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.information li{
+    text-align: left;
+    font-size: 0.7rem;
+    margin-left: 1rem;
+    color: var(--textcolor);
+}
+
+.information li::marker{
+    color: var(--titlecolor);
+}
+
+.infos{
+    margin: 1rem auto;
+    margin-bottom: 1rem;
+    padding-right: 10%;
+    padding-left: 10%;
+    width: 800px;
+}
+
+.infos h2{
+    color: var(--titlecolor);
+    background-color: #a0a0a0;
+    text-align: left;
+    padding: 0.5rem;
+    font-weight: bold;
+    border-bottom: var(--titlecolor) 2px solid;
+}
+
+.infos p{
+    text-align: left;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--textcolor);
+}
+
+.infos b{
+    color: var(--bold-color);
+}
+
+.infos a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--textcolor);
+}
+
+.infos a:hover{
+    text-decoration: underline;
+    color: var(--bold-color);
+    font-weight: bold;
+}
+
+.infos img{
+    width: 400px;
+    margin: 10px;
+}
+
+/* RODAPÉ */
+footer{
+    align-items: flex-end;
+    margin-top: auto;
+    width: 100%;
+    background-color: #979797;
+}
+
+footer p{
+    font-size: 0.75rem;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.fo-icon{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.fo-icon a{
+    display: flex;
+    align-items: center;
+    font-size: 0.55rem;
+    margin: 10px 20px 0 20px;
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+.fo-icon i{
+    margin-right: 10px;
+}
+
+a:hover{
+    cursor: pointer;
+    color: #ff953e;
+}
+
+@media (max-width: 768px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .cabecalho li{
+        font-size: 0.80rem;
+        margin: 7px;
+    }
+
+    .cabecalho a{
+        margin: 7px;
+    }
+
+    /* .title-text2{
+        max-width: 320px;
+    }
+
+    .information{
+        max-width: 320px;
+    }
+
+    .infos{
+        max-width: 320px;
+    } */
+
+    .title-text2,
+    .information,
+    .infos {
+    width: 100%;
+    max-width: 800px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+    }
+
+    .infos img{
+        width: 320px;
+    }
+
+    .infos h2, .information h2{
+        font-size: 0.9rem;
+    }
+
+}
+
+@media (max-width: 375px){
+    .cabecalho li{
+        font-size: 0.5rem;
+        margin: 5px;
+    }
+
+    .cabecalho a{
+        font-size: 0.5rem;
+        margin: 5px;
+    }
+}
