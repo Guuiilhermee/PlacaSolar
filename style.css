@@ -304,38 +304,91 @@ a:hover {
     margin: 10px;
 }
 
-.new-title-text {
-    margin: 1rem auto;
-    padding-right: 10%;
-    padding-left: 10%;
-    width: 800px;
-}
+/* DETAL.HTML */
 
-.new-title-text h1 {
-    color: #1b1b1b;
+.title-cards h1 {
+    color: #1a1a1a;
     background-color: #a0a0a0;
     font-weight: bold;
     text-transform: uppercase;
+    width: 832px;
+    margin: 1.3rem auto;
 }
 
-.new-title-text p {
-    font-size: 0.8rem;
-    margin-top: 1rem;
+.principal {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    gap: 16px;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    padding: 16px;
+    margin-bottom: 2rem;
+}
+
+.principal-cards {
+    background-color: #393535;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px 5px 0 0;
+}
+
+.principal-cards img {
+    width: 100%;
+    display: block;
+    flex: 1;
+    border-radius: 5px 5px 0 0;
+}
+
+.principal-cards p {
+    display: flex;
     color: #fff;
-}
-
-.new-title-text h2 {
-    color: #1b1b1b;
-    background-color: #a0a0a0;
+    margin: 0;
+    padding: 10px;
+    font-size: 0.9rem;
     text-align: left;
-    padding: 0.5rem;
-    border-bottom: #1b1b1b 2px solid;
 }
 
-.new-title-text img {
-    width: 400px;
-    margin: 10px;
+.principal-videos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 2rem;
+    background-color: #fff;
+    padding: 16px;
 }
+
+.sec-vi-card {
+    /* background-color: #393535; */
+    /* padding: 8px; */
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sec-vi-card p {
+    color: #fff;
+    text-align: left;
+    font-size: 0.9rem;
+    background-color: #393535;
+    margin: 0;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+.detal-card iframe {
+    display: flex;
+    /* max-width: 350px; */
+    width: 100%;
+    flex: 1;
+    margin: auto;
+}
+
+/* FIM DETAL.HTML */
 
 .new-title-text3 {
     margin: 1rem auto;
@@ -355,6 +408,13 @@ a:hover {
     text-align: center;
     color: #fff;
     font-size: 0.75rem;
+}
+
+.new-title-text-img h2 {
+    margin-top: auto;
+    font-size: 0.95rem;
+    text-align: center;
+    color: #fff;
 }
 
 /* CÁLCULO */
@@ -458,6 +518,25 @@ a:hover {
         width: 320px;
         font-size: 1.10rem;
     }
+
+    .title-cards h1 {
+        width: 352px;
+        font-size: 1.10rem;
+    }
+
+    .principal {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+    }
+
+    .principal-videos{
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+    }
+
+
 
     .title-text2 h1 {
         width: 320px;
