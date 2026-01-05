@@ -353,6 +353,16 @@ a:hover {
 
 }
 
+@media (max-width: 750px){
+        .header_nav a {
+        font-size: .5rem;
+        padding: .7em .5em;
+        border: solid 1px;
+        text-decoration: none;
+        margin: 1.3rem;
+    }
+}
+
 @media (max-width: 375px) {
     /* .cabecalho li{
         font-size: 0.5rem;
@@ -374,6 +384,6 @@ a:hover {
         padding: .7em .5em;
         border: solid 1px;
         text-decoration: none;
-        margin: 1.3rem;
+        margin: .5rem;
     }
 }
