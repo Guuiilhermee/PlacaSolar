@@ -13,10 +13,18 @@
 
     <div class="wrapperContainer-dark wrapperContainer-fixed">
       <header class="header container">
-        <h1 class="title_main"><a href="../index.html">Projects</a></h1>
+        <div class="header_logo">
+          <a href="../index.html">
+            <i class="fa-solid fa-solar-panel logo-icon"></i>
+            <span class="logo-text">SOLAR<span class="highlight">TECH</span></span>
+          </a>
+        </div>
+        <button class="mobile-menu-toggle" aria-label="Abrir menu nav">
+          <i class="fas fa-bars"></i>
+        </button>
         <nav class="header_nav">
           <ul>
-            <!-- <li><a href="index.html">Principal</a></li> -->
+            <li><a href="../index.html">Início</a></li>
             <li><a href="./calculo.html">Cálculos</a></li>
             <li><a href="./arduino.html">Arduino</a></li>
             <li><a href="./placasolid.html">Montagem</a></li>
@@ -38,23 +46,31 @@
 
             <p><b>Potência da placa (Wp)</b>: É a potência máxima que a placa pode gerar em condições ideais. <b>Irradiação solar</b>: A quantidade de luz solar que a placa recebe, que varia conforme a localização geográfica e as condições climáticas. <b>Eficiência do sistema</b>: Inclui fatores como a inclinação e a orientação do painel, além de perdas elétricas e a qualidade dos componentes. </p>
 
-            <h1>Cálculo</h1>
+            <h1>Simulador Solar</h1>
         </div>
 
         <div class="resul">
-            <label for="ppw">Potência da placa</label>
-            <input type="number" id="ppw"><br>
+            <div class="calc-group">
+                <label for="ppw">Potência da placa (Wp)</label>
+                <input type="number" id="ppw" placeholder="Ex: 550">
+            </div>
 
-            <label for="m2dia">Irradiação diária</label>
-            <input type="number" id="m2dia"><br>
+            <div class="calc-group">
+                <label for="m2dia">Irradiação diária (kWh/m²/dia)</label>
+                <input type="number" id="m2dia" step="0.1" placeholder="Ex: 5.5">
+            </div>
 
-            <label for="diasmes">Dias no mês</label>
-            <input type="number" id="diasmes"><br>   
+            <div class="calc-group">
+                <label for="diasmes">Dias no mês</label>
+                <input type="number" id="diasmes" value="30" placeholder="Ex: 30">
+            </div>
 
-            <label for="efisis">Eficiência do sistema</label>
-            <input type="number" id="efisis"><br>
+            <div class="calc-group">
+                <label for="efisis">Eficiência do sistema (0 a 1)</label>
+                <input type="number" id="efisis" step="0.05" value="0.8" placeholder="Ex: 0.8">
+            </div>
 
-            <button onclick="principal()">Calcular</button>
+            <button onclick="principal()"><i class="fas fa-calculator"></i> Calcular Geração</button>
 
             <div id="resposta"></div>
         </div>
